@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px){
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 100vw;
+    overflow-x: hidden;
+    height: 100vh;
+    color: white;
+    font-family: "Madimi One", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 15px;
+    box-shadow: 1px 1px 13px 0px black;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    
+}
+
+header img{
+    width: 100px;
+}
+
+section.banner{
+   width: 100%;
+   text-align: center;
+}
+
+section.banner h1{
+    margin-bottom: 16px;
+    font-weight: 900;
+}
+
+section.banner img{
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 15px;
+}
+
+section.banner p{
+    font-size: 1.3em;
+    width: 60vw;
+    margin: auto;
+    text-align: justify;
+    font-weight: 900;
+}
+
+}
