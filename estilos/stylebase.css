@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+}
+
+body{
+        
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 100vw;
+    height: 100vh;
+    color: white; 
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100vw;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 15px;
+    box-shadow: 1px 1px 13px 0px black;
+}
+
+header img{
+    width: 120px;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+section{
+    text-align: center;
+}
+
+section.h1{
+    margin-bottom: 50px;
+}
+
+section h2{
+    margin-bottom: 30px;
+}
+
+section p {
+    margin: 0px auto 30px auto;
+    width: 85vw;
+}
+
+section.banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    flex-shrink: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+#banner-tittle{
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+section img{
+    width: 20vw;
+    margin: auto;
+    text-align: center;
+}
+
+section.beneficios{
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 30px;   
+}
+
+section.slider{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+section.slider span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+section.modelos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.modelos h2#modelo2{
+    margin-bottom: 10px;
+}
+
+section.modelos p{
+    color: green;
+    width: 85vw;
+    margin: 0px auto 30px auto;
+}
+
+#obs{
+    color: white;
+}
+
+section.entrega h1{
+    margin-bottom: 30px;
+}
+
+section.entrega p{
+    margin-bottom: 10px;
+}
+
+section.contatos img{
+    width: 25px;
+    display: inline;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+section.entrega span{
+    margin-bottom: 20px;
+}
+
+section.contatos a{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section.contatos h1{
+    margin-bottom: 30px;
+}
+
+footer{
+    padding: 10px 0px 10px 0px;
+    width: 100vw;
+    margin: auto;
+    background-color: black;
+    color: white;   
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: rgba(255, 255, 255, 0.582);
+}
+
+footer p{
+    text-align: center;
+}
