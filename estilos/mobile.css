@@ -7,6 +7,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
 }
 
 body{
@@ -16,7 +17,7 @@ body{
     overflow-x: hidden;
     height: 100vh;
     color: white;
-    font-family: "Madimi One", sans-serif;
+    
 }
 
 header{
@@ -34,6 +35,7 @@ header{
 main{
     width: 100%;
     height: 100%;
+    padding: 50px;
     
 }
 
@@ -42,19 +44,27 @@ header img{
 }
 
 section.banner{
-   width: 100%;
-   text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    flex-shrink: 1;
+    text-align: center;
+    margin-bottom: 30px;
+   
 }
 
 section.banner h1{
     margin-bottom: 16px;
     font-weight: 900;
+    font-size: 2.3em;
 }
 
-section.banner img{
-    width: 100%;
-    height: 90vh;
-    margin-bottom: 15px;
+section img{
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    
 }
 
 section.banner p{
@@ -63,6 +73,11 @@ section.banner p{
     margin: auto;
     text-align: justify;
     font-weight: 900;
+}
+
+section.beneficios h1{
+    text-align: center;
+    font-size: 1.7em;
 }
 
 }
