@@ -43,6 +43,13 @@ section img{
     width: 70vw;
 }
 
+section.banner button:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 0px 0px black;
+    transform: translateY(0px);
+}
+
 section.beneficios{
     margin-bottom: 30px;   
 }   
@@ -139,6 +146,13 @@ section.banner{
 
 section img{
     width: 60vw;
+}
+
+section.banner button:hover{
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 0px 0px black;
+    transform: translateY(0px);
 }
 
 section.beneficios{
