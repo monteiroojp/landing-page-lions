@@ -43,7 +43,4 @@
 .button-28:active {
   box-shadow: none;
   transform: translateY(0);
-  color: #fff;
-  background-color: #1A1A1A;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
 }

@@ -77,6 +77,11 @@ section.banner{
     font-size: 2em;
 }
 
+section.banner a{
+    width: 165px;
+    margin: auto;
+}
+
 section img{
     width: 20vw;
     margin: auto;
