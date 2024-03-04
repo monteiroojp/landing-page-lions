@@ -49,11 +49,11 @@ section{
     text-align: center;
 }
 
-section.h1{
+section h2{
     margin-bottom: 50px;
 }
 
-section h2{
+section h3{
     margin-bottom: 30px;
 }
 
@@ -77,13 +77,18 @@ section.banner{
     font-size: 2em;
 }
 
-section.banner a{
+div.banner{
+    display: flex;
+    flex-direction: column;
+}
+
+div.banner  a{
     width: 165px;
     margin: auto;
 }
 
-section img{
-    width: 20vw;
+img{
+    width: 50vw;
     margin: auto;
     text-align: center;
 }
@@ -94,7 +99,7 @@ section.beneficios{
     margin-bottom: 30px;   
 }
 
-section.slider{
+div.slider{
     display: flex;
     width: 100vw;
     justify-content: center;
@@ -102,7 +107,7 @@ section.slider{
     margin-bottom: 30px;
 }
 
-section.slider span{
+div.slider span{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -119,7 +124,7 @@ section.modelos{
     justify-content: center;
 }
 
-section.modelos h2#modelo2{
+section.modelos h3#modelo2{
     margin-bottom: 10px;
 }
 
@@ -133,7 +138,7 @@ section.modelos p{
     color: white;
 }
 
-section.entrega h1{
+section.entrega h2{
     margin-bottom: 30px;
 }
 
@@ -158,7 +163,7 @@ section.contatos a{
     padding-right: 20px;
 }
 
-section.contatos h1{
+section.contatos h2{
     margin-bottom: 30px;
 }
 
