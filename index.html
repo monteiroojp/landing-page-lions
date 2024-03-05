@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="estilos/stylebase.css">
     <link rel="stylesheet" href="estilos/mobile.css">
     <link rel="stylesheet" href="estilos/largemobile.css">
+    <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/desktop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Merriweather&family=Sriracha&display=swap" rel="stylesheet">
@@ -26,31 +28,41 @@
                 <a href="https://lionscia.lojavirtualnuvem.com.br/produtos/camiseta-personalizada/" target="_blank" rel="external" id="buy-link-button"><button class="button-28" role="button">COMPRE JÁ!</button></a>
             </div>
         </section>
+        <section class="beneficios-tittle">
+            <h2>BENEFÍCIOS!</h2>       
         <section class="beneficios">
-            <h2>BENEFÍCIOS!</h2>
-            <h3>ESCOLHA QUALQUER PESSOA </h3>
-        </section>
-
-        <div class="slider">
-            <span class="material-symbols-outlined" id="previous">arrow_back_ios</span>         
-            <div id="img">
-                <img src="imagens/neymar.webp" alt="Neymar" id="sliderImg">
+                <h3>ESCOLHA QUALQUER PESSOA </h3>
+                <div class="slider">
+                    <span class="material-symbols-outlined" id="previous">arrow_back_ios</span>
+                    <div id="img">
+                        <img src="imagens/neymar.webp" alt="Neymar" id="sliderImg">
+                    </div>
+                    <span class="material-symbols-outlined" id="next">arrow_forward_ios</span>
+                    <script src="scripts/slider.js"></script>
+                </div>
             </div>
-            <span class="material-symbols-outlined" id="next">arrow_forward_ios</span>
-            <script src="scripts/slider.js"></script>
-        </div>
-        <section class="beneficios">
             <h3>TENHA FRASES PERSONALIZADAS</h3>
             <img src="imagens/neymarback.webp" alt="neymar-back-shirt">
         </section>
-        <section class="modelos">
+        <section class="modelos-tittle">
             <h2>MODELOS</h2>
-            <h3>ESTAMPA FRONTAL</h3>
-            <img src="imagens/yunkvino.png" alt="yunk-vino">
-            <p>10% OFF</p>
-            <h3 id="modelo2">ESTAMPA FRONTAL E TRASEIRA</h3>
-            <img src="imagens/veigh.png" alt="veigh">
-            <p>CUSTO-BENEFÍCIO</p>
+        </section>
+        <section class="modelos">
+            <div class="modelo-front" class="i">        
+                <h3>ESTAMPA FRONTAL</h3>
+  
+                <img src="imagens/yunkvino.png" alt="yunk-vino">
+                <p id="modelop1">10% OFF</p>
+                <h4>10% OFF</h4>
+            </div>
+            <div class="modelo-front-and-back" class="i">
+                <h3 id="modelo2">ESTAMPA FRONTAL E TRASEIRA</h3>
+                <img src="imagens/veigh.png" alt="veigh">
+                <p id="modelop2">CUSTO-BENEFÍCIO</p>
+                <h4>CUSTO-BENEFÍCIO</h4>
+            </div>
+        </section>
+        <section class="obs">
             <p id="obs">OBS: EM AMBOS MODELOS A ESCOLHA DE IMAGENS PODE SER FEITA PELO PRÓPRIO CLIENTE</p>
         </section>
         <section class="entrega">
@@ -65,9 +77,8 @@
         </section>
         <footer>
             <a href="https://lionscia.com.br" target="_blank" rel="external">
-                <p>Lionscia.com.br</p>
+                Lionscia.com.br
             </a>
-            
         </footer>
         
 

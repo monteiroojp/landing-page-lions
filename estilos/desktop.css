@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:601px) and (max-width:768px){
- 
+@media screen and (min-width:1024px) and (max-width:1920px) {
     ::-webkit-scrollbar{
         width: 0px;
     }
@@ -49,7 +48,7 @@
     }
     
     img{
-        width: 50vw;
+        width: 30vw;
     }
     
     section.beneficios{
@@ -65,10 +64,36 @@
         width: 50px;
         border-radius: 20px;
     }
+
+    section.modelos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
     
+    section.modelos div{
+        width: 50vw;
+    }
+
+    div.modelo-front h4{
+        font-size: 1.2em;
+        display: block;
+        margin-bottom: 80px;
+        color: green;
+      }
+
+    div.modelo-front-and-back h4{
+        font-size: 1.2em;
+        display: block;
+        color: green;                                                                                   
+    }
     
+    div.modelo-front-and-back h3#modelo2{
+        margin-bottom: 30px;
+    }
     
     section.modelos p{
+        display: none;
         width: 85vw;
         margin: 0px auto 80px auto;
     }
@@ -103,6 +128,4 @@
     footer{
         padding: 5px 0px 5px 0px;
     }
-    
 }
-

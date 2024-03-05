@@ -49,15 +49,15 @@ section{
     text-align: center;
 }
 
-section h2{
+h2{
     margin-bottom: 50px;
 }
 
-section h3{
+h3{
     margin-bottom: 30px;
 }
 
-section p {
+main p {
     margin: 0px auto 30px auto;
     width: 85vw;
 }
@@ -117,18 +117,28 @@ div.slider span{
 }
 
 
-
 section.modelos{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-section.modelos h3#modelo2{
-    margin-bottom: 10px;
+section.modelos div{
+    width: 100vw;
+}
+
+
+div.modelo-front h4{
+  display: none;
+}
+
+
+div.modelo-front-and-back h4{
+    display: none;
 }
 
 section.modelos p{
+    display: block;
     color: green;
     width: 85vw;
     margin: 0px auto 30px auto;
@@ -168,7 +178,7 @@ section.contatos h2{
 }
 
 footer{
-    padding: 10px 0px 10px 0px;
+    padding: 5px 0px 5px 0px;
     width: 100vw;
     margin: auto;
     background-color: black;
@@ -186,4 +196,7 @@ footer a:hover{
 
 footer p{
     text-align: center;
+   
 }
+
+
